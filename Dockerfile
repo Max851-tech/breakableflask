@@ -11,4 +11,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Étape 4 : commande de lancement
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
